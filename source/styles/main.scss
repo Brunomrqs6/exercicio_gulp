@@ -1,0 +1,21 @@
+@use 'variaveis.scss';
+
+body {
+    background-color: variaveis.$corDeFundo;
+}
+
+header h1 {
+    color: variaveis.$corDoTexto;
+}
+
+.container {
+    color: blue;
+}
+
+h2 {
+    color: pink;
+}
+
+h2 {
+    color: variaveis.$corH3;
+}
